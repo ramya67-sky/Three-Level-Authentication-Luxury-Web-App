@@ -1,174 +1,133 @@
-🚀 Three-Level Authentication Luxury Web App
+# 👑 THREE-LEVEL AUTHENTICATION LUXURY WEB APP
 
-A premium multi-factor authentication system built with Flask, featuring a luxury shopping-inspired UI and secure three-step verification.
+### 🔐 Secure • Elegant • Modern Multi-Factor Authentication System
 
-🌟 Overview
+---
 
-This project is a modern web adaptation of a traditional Tkinter authentication system.
-The application combines:
+> A premium Flask-based authentication web application that combines  
+> **Image Authentication + Pattern Lock + PIN Verification**  
+> into one secure and luxury-themed login experience.
 
-🖼️ Image-Based Authentication
-✏️ Pattern Lock Verification
-🔐 PIN Authentication
+---
 
-into one elegant and secure authentication flow.
+# 🌟 PROJECT OVERVIEW
 
-Designed with a luxury e-commerce aesthetic, the interface focuses on both security and premium user experience.
+This project is a modern conversion of a Tkinter authentication system into a stylish Flask web application inspired by luxury shopping websites.
 
-✨ Features
-🔒 Three-Level Authentication
+The system uses **three authentication layers** to improve security while maintaining a visually premium user experience.
 
-Users must successfully complete:
+---
 
-Image Selection Authentication
-Pattern Lock Authentication
-4-Digit PIN Verification
-🎨 Luxury UI Design
-Premium shopping website inspired interface
-Smooth animations and transitions
-Responsive layout
-Modern typography and glassmorphism effects
-🛡️ Security Features
-SHA-256 hashed PIN storage
-SQLite database integration
-Multi-factor verification
-Duplicate account prevention
-Secure session-based authentication flow
-🧠 Authentication Flow
-User Registration/Login
+# ✨ CORE FEATURES
+
+## 🖼️ IMAGE-BASED AUTHENTICATION
+Users choose a secret image from a 3×3 image grid.
+
+---
+
+## ✏️ PATTERN LOCK AUTHENTICATION
+Interactive pattern drawing system similar to mobile lock screens.
+
+---
+
+## 🔢 PIN AUTHENTICATION
+Secure 4-digit PIN verification with SHA-256 hashing.
+
+---
+
+## 🎨 LUXURY UI DESIGN
+- Premium aesthetic interface
+- Smooth animations
+- Modern layout
+- Responsive design
+- Glassmorphism-inspired styling
+
+---
+
+## 🛡️ SECURITY FEATURES
+- SHA-256 PIN hashing
+- Multi-factor verification
+- SQLite database integration
+- Duplicate user prevention
+- Session-based authentication flow
+
+---
+
+# 🧠 AUTHENTICATION FLOW
+
+```text
+REGISTER / LOGIN
         ↓
-Select Secret Image
+SELECT SECRET IMAGE
         ↓
-Draw Secret Pattern
+DRAW SECRET PATTERN
         ↓
-Enter Secure PIN
+ENTER 4-DIGIT PIN
         ↓
-Authentication Success
-🏗️ Project Structure
+AUTHENTICATION SUCCESS
+
+ 🏗️ PROJECT STRUCTURE
+
 auth_web/
 │
 ├── app.py
-│   └── Flask backend with authentication logic
+│   └── Flask backend
 │
 ├── auth.db
-│   └── SQLite database (auto-created)
+│   └── SQLite database
 │
 ├── requirements.txt
 │
 ├── templates/
 │   └── index.html
-│       └── Main frontend page
 │
 ├── static/
 │   │
 │   ├── css/
 │   │   └── style.css
-│   │       └── Luxury UI styling
 │   │
 │   ├── js/
 │   │   └── main.js
-│   │       └── Authentication flow & pattern logic
 │   │
 │   └── images/
-│       └── img1.png → img9.png
+│       ├── img1.png
+│       ├── img2.png
+│       └── ...
 │
 └── README.md
-⚙️ Technologies Used
-Technology	Purpose
-Python	Backend Logic
-Flask	Web Framework
-SQLite	Database
-HTML5	Structure
-CSS3	Styling
-JavaScript	Frontend Logic
-SHA-256	PIN Hashing
-📸 Authentication Components
-🖼️ Image Authentication
 
-Users select a secret image from a 3×3 grid.
+🚀 INSTALLATION & SETUP
 
-✏️ Pattern Lock
+1️⃣ CLONE THE REPOSITORY
 
-Interactive canvas-based pattern drawing similar to mobile lock systems.
-
-🔢 PIN Verification
-
-Secure 4-digit PIN verification using SHA-256 hashing.
-
-🚀 Installation & Setup
-1️⃣ Clone Repository
 git clone https://github.com/yourusername/Three-Level-Authentication-Luxury-Web-App.git
-2️⃣ Navigate to Project Folder
-cd Three-Level-Authentication-Luxury-Web-App
-3️⃣ Install Dependencies
+
+2️⃣ OPEN PROJECT DIRECTORY
+
 pip install -r requirements.txt
-4️⃣ Add Images
 
-Place these files inside:
+4️⃣ ADD IMAGE FILES
 
+Place all images inside:
 static/images/
-
-Required image names:
-
 img1.png
 img2.png
+img3.png
 ...
 img9.png
-5️⃣ Run Application
+
+5️⃣ RUN THE APPLICATION
+
 python app.py
-6️⃣ Open in Browser
+
+6️⃣ OPEN IN BROWSER
+
 http://localhost:5000
-🗄️ Database Schema
 
-The application preserves the original Tkinter database structure:
+👨‍💻 AUTHOR
 
-Field	Description
-name	Username
-image	Selected image
-pattern	Drawn pattern
-pin	SHA-256 hashed PIN
-✅ Preserved Features from Original Tkinter App
-✅ Same authentication logic
-✅ Same database schema
-✅ Same pattern system
-✅ Same image selection system
-✅ Same PIN verification
-✅ Same registration/login workflow
-💡 Future Enhancements
-🌐 Deploy on cloud hosting
-📱 Mobile responsiveness improvements
-👤 Profile system
-📧 Email verification
-🔐 OTP authentication
-🌙 Dark/Light themes
-📊 Login analytics dashboard
-🎯 Learning Outcomes
+Developed as a secure and visually premium authentication system project using Flask.
 
-This project demonstrates practical implementation of:
+ 📜 LICENSE
 
-Multi-Factor Authentication (MFA)
-Flask Web Development
-Frontend-Backend Integration
-Session Management
-Database Handling
-Secure Hashing Techniques
-Interactive Canvas Programming
-👨‍💻 Author
-
-Developed as a secure authentication system project with a modern luxury web interface.
-
-📜 License
-
-This project is open-source and available for educational purposes.
-
-⭐ Support
-
-If you found this project useful:
-
-⭐ Star the repository
-🍴 Fork the project
-🚀 Contribute improvements
-🔥 Final Preview
-
-“Security meets luxury experience.”
-A stylish three-factor authentication system built for modern web applications.
+This project is open-source and intended for educational purposes.
